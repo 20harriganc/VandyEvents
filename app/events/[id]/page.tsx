@@ -229,7 +229,13 @@ export default async function EventsIndividualPage({ params }: { params: { id: s
                         </dl>
                     </div>
                 </div>
-
+                <tbody className="divide-y divide-gray-200 overflow-y-auto">
+                    <td className="whitespace-nowrap px-3 text-sm text-gray-500">
+                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                            <a className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="/events/new">Sign Up</a>
+                        </th>
+                    </td>
+                </tbody> 
                 <div className="mt-8">
                     <h3 className="text-lg leading-6 font-medium text-gray-900">Comments</h3>
                     <div className="mt-4">
